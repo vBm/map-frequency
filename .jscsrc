@@ -1,0 +1,68 @@
+{
+	// https://www.npmjs.org/package/jscs#readme
+	"disallowEmptyBlocks": true,
+	"disallowKeywordsOnNewLine": ["else"],
+	"disallowMixedSpacesAndTabs": true,
+	"disallowSpacesInsideParentheses": true,
+	"disallowTrailingComma": true,
+	"disallowTrailingWhitespace": true,
+	"requireBlocksOnNewline": true,
+	"requireCamelCaseOrUpperCaseIdentifiers": null,
+	"requireCommaBeforeLineBreak": true,
+	"requireCurlyBraces": [
+		"catch",
+		"do",
+		"else",
+		"for",
+		"if",
+		"try",
+		"while"
+	],
+	"requireMultipleVarDecl": null,
+	"requireSpaceAfterBinaryOperators": [
+		"!=",
+		"!==",
+		"*",
+		",",
+		"-",
+		"=",
+		"==",
+		"===",
+		"/",
+		"+"
+	],
+	"requireSpaceAfterKeywords": [
+		"catch",
+		"do",
+		"else",
+		"for",
+		"if",
+		"return",
+		"try",
+		"while"
+	],
+	"requireSpaceAfterLineComment": true,
+	"requireSpaceBeforeBinaryOperators": [
+		"!=",
+		"!==",
+		"*",
+		"-",
+		"=",
+		"==",
+		"===",
+		"/",
+		"+"
+	],
+	"requireSpaceBeforeBlockStatements": true,
+	"requireSpacesInConditionalExpression": {
+		"afterConsequent": true,
+		"afterTest": true,
+		"beforeAlternate": true,
+		"beforeConsequent": true
+	},
+	"validateIndentation": "\t",
+	"validateQuoteMarks": {
+		"escape": true,
+		"mark": "'"
+	}
+}

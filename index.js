@@ -4,8 +4,9 @@
 
 // Local libs and files
 
-var	argv = process.argv.slice(2),
-	wotMaps = require('./data/wot-maps'),
+var	argv = process.argv.slice(2);
+
+var wotMaps = require('./data/wot-maps'),
 
 // node modules defined in package.json
 
@@ -27,7 +28,7 @@ glob(gamePath + '*.wotreplay', function (error, files) {
 		var nameRegex = /(\d+)\_\d+\_(.*)\_(\d+\_\D+)\.wotreplay/;
 		var maps = [];
 
-		files.forEach( function (entry) {
+		files.forEach(function (entry) {
 			maps.push(nameRegex.exec(entry)[3]);
 		});
 
@@ -53,17 +54,13 @@ glob(gamePath + '*.wotreplay', function (error, files) {
 			}
 		});
 
-		frequency.forEach( function (mapName) {
-
-			table.push(
-			    [wotMaps["maps"][mapName[0]], mapName[1]]
-			);
-
+		frequency.forEach(function (mapName) {
+			table.push([wotMaps['maps'][mapName[0]], mapName[1]]);
 		});
 
 		console.log(table.toString());
 
 	} else {
-		console.log(clc.bold("There are no replays available for processing...\nAre you sure that you have enabled replay recording?"));
+		console.log(clc.bold('There are no replays available for processing...\nAre you sure that you have enabled replay recording?'));
 	}
 });
