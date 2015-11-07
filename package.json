@@ -1,0 +1,25 @@
+{
+  "name": "map-frequency",
+  "version": "0.1.0",
+  "description": "WarGaming map frequency counter",
+  "homepage": "https://github.com/vBm/map-frequency",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vBm/map-frequency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vBm/map-frequency/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vBm <the.vbm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "cli-table": "^0.3.1",
+    "glob": "^5.0.15",
+    "lodash": "^3.10.1"
+  }
+}
