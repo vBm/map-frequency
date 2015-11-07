@@ -5,3 +5,5 @@
 
 # map-frequency
 WarGaming map frequency counter
+
+![WGmfc](images/screenshot.png "WarGaming map frequency counter")
