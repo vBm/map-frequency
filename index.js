@@ -29,7 +29,9 @@ glob(gamePath + '*.wotreplay', function (error, files) {
 		var maps = [];
 
 		files.forEach(function (entry) {
-			maps.push(nameRegex.exec(entry)[3]);
+			if (nameRegex.exec(entry) !== null) {
+				maps.push(nameRegex.exec(entry)[3]);
+			}
 		});
 
 		var frequency = _.chain(maps).countBy().pairs().sortBy(1).reverse().value();
