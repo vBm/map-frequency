@@ -6,7 +6,6 @@
         "00_tank_tutorial": "Training area",
         "01_karelia": "Karelia",
         "02_malinovka": "Malinovka",
-        "03_campania": "Province",
         "04_himmelsdorf": "Himmelsdorf",
         "05_prohorovka": "Prokhorovka",
         "06_ensk": "Ensk",
@@ -30,7 +29,6 @@
         "36_fishing_bay": "Fisherman's Bay",
         "37_caucasus": "Mountain Pass",
         "38_mannerheim_line": "Arctic Region",
-        "39_crimea": "South Coast",
         "44_north_america": "Live Oaks",
         "45_north_america": "Highway",
         "47_canada_a": "Serene Coast",
@@ -45,6 +43,8 @@
         "100_thepit": "Mittengard",
         "101_dday": "Overlord",
         "103_ruinberg_winter": "Winterberg",
-        "111_paris": "Icebound"
+        "105_germany": "Berlin",
+        "111_paris": "Icebound",
+        "114_czech": "114_czech/name"
     }
 }
