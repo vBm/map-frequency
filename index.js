@@ -34,7 +34,7 @@ glob(gamePath + '*.wotreplay', function (error, files) {
 			}
 		});
 
-		var frequency = _.chain(maps).countBy().pairs().sortBy(1).reverse().value();
+		var frequency = _.chain(maps).countBy().toPairs().sortBy(1).reverse().value();
 
 		var processed = new Table({
 			head: [],
