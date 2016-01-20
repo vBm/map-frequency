@@ -6,4 +6,15 @@
 # map-frequency
 WarGaming map frequency counter
 
+make sure to install all required dependencies
+```bash
+$ npm install
+```
+
+fire script away using
+
+```
+node index.js `path-to-replay-folder`
+```
+
 ![WGmfc](images/screenshot.png "WarGaming map frequency counter")
