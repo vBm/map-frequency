@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 			},
 			options: {
 				config: '.eslintrc',
-				format: require('eslint-stylish-config')
+				// format: require('eslint-stylish-config')
 			}
 		},
 		lintspaces: {
