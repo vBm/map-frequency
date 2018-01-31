@@ -1,7 +1,7 @@
 {
     "_comment": "Populated list from:",
     "_url": "https://api.worldoftanks.eu/wot/encyclopedia/arenas/?application_id=demo&fields=name_i18n",
-    "_count": 41,
+    "_count": 44,
     "maps": {
         "00_tank_tutorial": "Training area",
         "01_karelia": "Karelia",
@@ -43,6 +43,9 @@
         "103_ruinberg_winter": "Winterberg",
         "105_germany": "Berlin",
         "111_paris": "Icebound",
-        "114_czech": "Pilsen"
+        "112_eiffel_tower_ctf": "Paris",
+        "114_czech": "Pilsen",
+        "212_epic_random_valley": "Nebelburg",
+        "217_er_alaska": "Klondike"
     }
 }
