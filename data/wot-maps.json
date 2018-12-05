@@ -1,11 +1,12 @@
 {
     "_comment": "Populated list from:",
     "_url": "https://api.worldoftanks.eu/wot/encyclopedia/arenas/?application_id=demo&fields=name_i18n",
-    "_count": 44,
+    "_count": 49,
     "maps": {
         "00_tank_tutorial": "Training area",
         "01_karelia": "Karelia",
         "02_malinovka": "Malinovka",
+        "03_campania_big": "Province",
         "04_himmelsdorf": "Himmelsdorf",
         "05_prohorovka": "Prokhorovka",
         "06_ensk": "Ensk",
@@ -28,7 +29,7 @@
         "35_steppes": "Steppes",
         "36_fishing_bay": "Fisherman's Bay",
         "37_caucasus": "Mountain Pass",
-        "38_mannerheim_line": "Arctic Region",
+        "38_mannerheim_line": "Mannerheim Line",
         "44_north_america": "Live Oaks",
         "45_north_america": "Highway",
         "47_canada_a": "Serene Coast",
@@ -37,8 +38,10 @@
         "83_kharkiv": "Kharkov",
         "84_winter": "Windstorm",
         "86_himmelsdorf_winter": "Winter Himmelsdorf",
+        "90_minsk": "Minsk",
         "95_lost_city": "Ghost Town",
         "96_prohorovka_defense": "Fiery Salient",
+        "99_poland": "Studzianki",
         "100_thepit": "Mittengard",
         "101_dday": "Overlord",
         "103_ruinberg_winter": "Winterberg",
@@ -46,6 +49,7 @@
         "111_paris": "Icebound",
         "112_eiffel_tower_ctf": "Paris",
         "114_czech": "Pilsen",
+        "115_sweden": "Glacier",
         "212_epic_random_valley": "Nebelburg",
         "217_er_alaska": "Klondike"
     }
