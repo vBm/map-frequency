@@ -17,7 +17,7 @@
   "author": "vBm <the.vbm@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "cli-color": "^1.4.0",
+    "cli-color": "^2.0.0",
     "cli-table": "^0.3.1",
     "glob": "^7.1.4",
     "lodash": "^4.17.15"
